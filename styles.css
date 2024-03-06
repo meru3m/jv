@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.navbar {
+  background-color: rgb(104, 103, 103);
+}
+
+.navbar a,
+.navbar button {
+  color: rgb(233, 233, 233);
+}
+
+.navbar-toggler-icon {
+  stroke: rgb(233, 233, 233);
+}
+
+a[href="#sidebar"] {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap if needed */
+}
+
+.contact-link,
+.social-link {
+  margin: 0 10px; /* Add space around links */
+  color: #333; /* Adjust text color as needed */
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.social-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.fas,
+.fab {
+  font-size: 18px;
+  margin-right: 5px; /* Add space between icon and text */
+}
+
+.fas,
+.fab {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #0d6efd; /* Bootstrap primary color */
+}
