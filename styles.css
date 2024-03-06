@@ -69,3 +69,42 @@ nav {
   margin-right: 5px;
   color: #0d6efd; /* Bootstrap primary color */
 }
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap if needed */
+}
+
+.contact-link,
+.social-link {
+  margin: 0 10px; /* Add space around links */
+  color: #333; /* Adjust text color as needed */
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.social-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.fas,
+.fab {
+  font-size: 18px;
+  margin-right: 5px; /* Add space between icon and text */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    align-items: center; /* Center links horizontally */
+  }
+}
